@@ -1578,7 +1578,7 @@ div.invitado {
 /*--==========================
   MediaQuerys
   ============================*/
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
   #main {
     max-width: 100%;
   }
@@ -1617,7 +1617,7 @@ div.invitado {
     height: 300px;
   }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 575px) {
   #main {
     max-width: 100%;
     padding: 20px 10px;
@@ -1661,7 +1661,7 @@ div.invitado {
       height: 300px;
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   div.institucional {
     width: 55%;
   }
@@ -1700,7 +1700,7 @@ div.invitado {
       height: 300px;
     }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 991px) {
   
   div.institucional {
     width: 55%;
@@ -1742,7 +1742,7 @@ div.invitado {
     }
   
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 1199px) {
   div.invitado {
     margin-bottom: 5px;
     padding: 0;
