@@ -1576,15 +1576,19 @@ div.invitado {
   color: #ddd;
 }
 /*--==========================
-  MediaQuerys
+  MediaQuerys Inicio
   ============================*/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
   #main {
     max-width: 100%;
   }
   div.institucional {
-      width: 55%;
+  #main .container .institucional {
+    max-width: 50%;
   }
+  .seccion {
+    padding: 10px 0;
+}
   div.golf, .rugby, .tenis {
     margin-right: -10px;
   }
@@ -1614,169 +1618,33 @@ div.invitado {
     height: 300px;
   }
 }
-@media only screen and (max-width: 575px) {
-  #main {
-    max-width: 100%;
-    padding: 20px 10px;
-  }
-  div.institucional {
-    width: 55%;
-  }
-  div.invitado {
-    margin-bottom: 5px;
-    
-  }
-  div.golf, .rugby, .tenis {
-    margin-right: -10px;
-  }
-  div.hipico, .hockey, .futbol {
-    margin-left: -10px;
-  }
-  .seccion {
-    padding: 5px 0;
+@media only screen and (min-width: 575px) {
+  #main .container .institucional {
+    max-width: 50%;
   }
   #main .container #beneficios {
     max-width: 90%;
-    margin-top: 40px;
-    height: 80px;
-    padding: 15px;
-    font-size: 30px;
+    margin-top: 20px;
     margin-left: 10px;
   }
   #main .container #sponsors {
     max-width: 90%;
     margin-top: 50px;
-    height: 80px;
-    padding: 15px;
-    font-size: 30px;
     margin-left: 10px;
   }
-  #main .container #magazine {
-    padding: 0 5px 0 0;
-  }
-  div.mapa {
-      height: 300px;
-    }
 }
 @media only screen and (max-width: 767px) {
-  div.institucional {
-    width: 55%;
-  }
-  div.golf, .rugby, .tenis {
-    margin-right: -10px;
-  }
-  div.hipico, .hockey, .futbol {
-    margin-left: -10px;
-  }
-  div.invitado {
-    margin-bottom: 10px;
-  }
   .seccion {
-    padding: 5px 0;
-  }
-  #main .container #beneficios {
-    max-width: 90%;
-    margin-top: 40px;
-    height: 80px;
-    padding: 15px;
-    font-size: 30px;
-    margin-left: 10px;
-  }
-  #main .container #sponsors {
-    max-width: 90%;
-    margin-top: 50px;
-    height: 80px;
-    padding: 15px;
-    font-size: 30px;
-    margin-left: 10px;
-  }
-  #main .container #magazine {
-    padding: 0 5px 0 0;
-  }
-  div.mapa {
-      height: 300px;
-    }
-}
-@media only screen and (max-width: 991px) {
-  
-  div.institucional {
-    width: 55%;
-  }
-  div.invitado {
-    margin-bottom: 5px;
     padding: 0;
   }
-  div.golf, .rugby, .tenis {
-    margin-right: -10px;
-  }
-  div.hipico, .hockey, .futbol {
-    margin-left: -10px;
-  }
+}
+@media only screen and (min-width: 991px) {
   .seccion {
-    padding: 5px 0;
-  }
-  #main .container #beneficios {
-    max-width: 90%;
-    margin-top: 50px;
-    height: 80px;
-    padding: 10px;
-    font-size: 35px;
-    margin-left: 10px;
-  }
-  #main .container #sponsors {
-    max-width: 90%;
-    margin-top: 70px;
-    height: 80px;
-    padding: 10px;
-    font-size: 35px;
-    margin-left: 10px;
-  }
-  #main .container #magazine {
-    padding: 0 5px 0 0;
-  }
-  div.mapa {
-      height: 300px;
-    }
-  
+    padding: 10px 0;
+  } 
 }
 @media only screen and (max-width: 1199px) {
-  div.invitado {
-    margin-bottom: 5px;
-    padding: 0;
-  }
-  div.golf, .rugby, .tenis {
-    margin-right: -10px;
-  }
-  div.hipico, .hockey, .futbol {
-    margin-left: -10px;
-  }
-  .seccion {
-    padding: 5px 0;
-  }
-  #main .container #beneficios {
-    max-width: 90%;
-    margin-top: 50px;
-    height: 80px;
-    padding: 10px;
-    font-size: 35px;
-    margin-left: 10px;
-  }
-  #main .container #sponsors {
-    max-width: 90%;
-    margin-top: 70px;
-    height: 80px;
-    padding: 10px;
-    font-size: 35px;
-    margin-left: 10px;
-  }
-  #main .container #magazine {
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-  div.mapa {
-      height: 300px;
-    }
+  
 }
 
 /*--==========================
@@ -1785,4 +1653,45 @@ div.invitado {
 
 .magazine {
   background-image: url(../img/about-bg.jpg);
+}
+
+/*--==========================
+  Nosotros
+  ============================*/
+#nosotros {
+  background: url(../img/fondoBotones/institucion8.jpg)
+}
+#botones-nosotros {
+  padding: 100px 10px 10px 10px;
+}
+#nosotros #main .container .btn-nosotros {
+  background: #730404;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+}
+.encabezado h3{
+  color: #400000;
+  font-size: 5em;
+  font-weight: 600;
+}
+.titulo h4 {
+  color: #400000;
+  font-size: 3em;
+  margin-left: 20px;
+  font-weight: 400;
+}
+.sub-titulo h5{
+  color: #730404;
+  font-size: 2em;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.parrafo p {
+  color: #730404;
+  font-size: 2em;
+  margin-left: 50px;
+  text-align: left;
 }
