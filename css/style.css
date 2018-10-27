@@ -1649,21 +1649,27 @@ div.invitado {
 /*--==========================
   Magazine
   ============================*/
-
-.magazine {
+#act_magazine {
   background-image: url(../img/about-bg.jpg);
+  color: #666666;
+  font-family: 'Oswald', sans-serif;
+}
+.magazine {
+  margin-top: 200px;
 }
 
 /*--==========================
   Nosotros
   ============================*/
-#nosotros {
+#act_nosotros {
+  color: #666666;
+  font-family: 'Oswald', sans-serif;
   background: url(../img/fondoBotones/institucion8.jpg)
 }
 #botones-nosotros {
   padding: 100px 10px 10px 10px;
 }
-#nosotros #main .container .btn-nosotros {
+#act_nosotros #main .container .btn-nosotros {
   background: #730404;
   border: solid 2px #fff;
   border-radius: 10px;
@@ -1694,3 +1700,46 @@ div.invitado {
   margin-left: 50px;
   text-align: left;
 }
+/*--==========================
+  Comunicados
+  ============================*/
+  #act_comunicados {
+    color: #666666;
+    font-family: 'Oswald', sans-serif;
+    background: #730404;
+  }
+  #act_comunicados #main .container .contenedor #botones-nosotros .btn-nosotros {
+      background: #400000;
+      border: solid 2px #fff;
+      border-radius: 10px;
+      font-size: 25px;
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+  }
+  #act_comunicados #main h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+  }
+  /*--==========================
+  Comision Directiva
+  ============================*/
+  #act_comisionDirectiva {
+    background: #730404;
+  }
+  #organigrama {
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+    background: #fff;
+  }
+  .organigrama {
+    margin-top: 20px;
+  }
+    /*--==========================
+  Sponsors
+  ============================*/
+  #act_sponsors {
+    background: #730404;
+  }
