@@ -1745,7 +1745,7 @@ div.invitado {
     padding: 10px 10px 10px 10px;
     margin-top: 100px;
   }
-     /*--==========================
+  /*--==========================
   Beneficios
   ============================*/
   #act_beneficios {
@@ -1780,3 +1780,15 @@ div.invitado {
     color: #2a72ed;
     text-align: center;
   }
+  /*--==========================
+  Tarifas Servicios
+  ============================*/
+  #act_tarifasServicios {
+    background: #730404;
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+  }
+  #act_tarifasServicios #main .container .contenedor .tarifasServicios {
+    margin-top: 10px;
+  }
+  
