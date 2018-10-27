@@ -1742,4 +1742,6 @@ div.invitado {
   ============================*/
   #act_sponsors {
     background: #730404;
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
   }
